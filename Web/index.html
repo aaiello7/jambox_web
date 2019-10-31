@@ -1,12 +1,63 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>JAMBOX Design & Development</title>
-    <meta name="keywords" content="jambox, web, webdesign, webdevelopment, appdevelopment, appsdevelopment, programmers, programming, ui, ux">
-    <meta name="description" content="">
-  </head>
-  <body>
+	<head>
+		<meta charset="utf-8">
+		<title>JAMBOX Design & Development</title>
+		<meta name="keywords" content="jambox, web, webdesign, webdevelopment, appdevelopment, appsdevelopment, programmers, programming, ui, ux">
+		<meta name="description" content="">
 
-  </body>
+		<!-- Material Design components and Google Icons -->
+		<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+		<link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+  	<body>
+	  	<header class="mdc-elevation--z1 hero">
+	  		<img class="mdc-elevation--z8 hero-logo" src="https://i.ibb.co/WtDn2m2/JAMBox-text-logo.png" alt="logo">
+	  	</header>
+	  	<section>
+			<!-----TAB BAR Menu----->
+			<div class="mdc-tab mdc-tab-bar mdc-tab--with-icon-and-text">
+				<div class="mdc-tab-scroller__scroll-area">
+					<div class="mdc-tab-scroller__scroll-content">
+						<button class="mdc-tab mdc-tab--active" role="tab" aria-selected="true">
+						  <span class="mdc-tab__content">
+						    <span class="mdc-tab__icon material-icons" aria-hidden="true">home</span>
+						    <span class="mdc-tab__text-label">Home</span>
+						  </span>
+						  <span class="mdc-tab-indicator mdc-tab-indicator--active">
+						    <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+						  </span>
+						  <span class="mdc-tab__ripple"></span>
+						</button>
+						<button class="mdc-tab" role="tab" aria-selected="false" tabindex="-1">
+						  <span class="mdc-tab__content">
+						    <span class="mdc-tab__icon material-icons" aria-hidden="true">edit</span>
+						    <span class="mdc-tab__text-label">Work</span>
+						  </span>
+						  <span class="mdc-tab-indicator">
+						    <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+						  </span>
+						  <span class="mdc-tab__ripple"></span>
+						</button>
+						<button class="mdc-tab" role="tab" aria-selected="false" tabindex="-1">
+						  <span class="mdc-tab__content">
+						    <span class="mdc-tab__icon material-icons" aria-hidden="true">phone</span>
+						    <span class="mdc-tab__text-label">Contact</span>
+						  </span>
+						  <span class="mdc-tab-indicator">
+						    <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+						  </span>
+						  <span class="mdc-tab__ripple"></span>
+						</button>
+					</div>
+				</div>
+			</div>
+			<!-----FAB----->
+			<button class="mdc-fab fab-custom" aria-label="Game">
+			  <span class="mdc-fab__icon material-icons">videogame_asset</span>
+			</button>
+	  	</section>
+  	</body>
 </html>
