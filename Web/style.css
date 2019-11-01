@@ -60,9 +60,9 @@ mdc-theme--text-<TEXT_STYLE>-on-dark
 .hero {
 	background-color: #3C3C3C;
 	height: 8em;
-	background-position: center;
+/*	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover;*/
 }
 
 .hero-logo {
@@ -87,10 +87,78 @@ mdc-theme--text-<TEXT_STYLE>-on-dark
   position: absolute;
   height: 10em;
   width: 10em;
-  bottom: 12em;
+  bottom: 10em;
   right: 10em;
 /*  --mdc-fab-icon-size($8em, $8em)	*/
 }
 
+.main-bg {
+	background-color: #3C3C3C;
+	height: 11em;
+}
 
+h1{
+  position: relative;
+  top: 1em;
+  left: 1em;
+  width: 664px;
+}
 
+p{
+  position: relative;
+  left: 3em;
+  width: 664px;
+}
+
+.elevation-rect {
+	background-color: #FFFFFF;
+	height: 2em;
+	width: 10em;
+	position: relative;
+	top: 1em;
+	padding: 0;
+}
+
+.inner-grid-mod{
+	height: 128px;
+}
+
+.grid-cell-mod {
+	transform: translate(0,-25%);
+}
+
+.bold-button {
+    font-family: Be Vietnam, sans-serif;
+    font-weight: bolder;
+    text-transform: lowercase;
+    display: inherit;
+    position: relative;
+    height: 8em;
+    width: 8em;
+    margin: auto;
+}
+
+.rect-1 {
+	background-color: #F2C879;
+    height: 96px;
+    width: 96px;
+    display: inherit;
+    margin: auto;
+}
+
+.rect-2 {
+	background-color: #F2785C;
+    height: 96px;
+    width: 96px;
+    display: inherit;
+    margin: auto;
+    top: -25%;
+}
+
+.rect-3 {
+	background-color: #D94848;
+    height: 96px;
+    width: 96px;
+    display: inherit;
+    margin: auto;
+}
